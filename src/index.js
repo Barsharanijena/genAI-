@@ -11,6 +11,7 @@ async function run(){
         messages: [{role:"user", content: "Hello , how are you?"}],
 
     });
+    console.log(response.choices[0].message.content);
 }
 
 run();
